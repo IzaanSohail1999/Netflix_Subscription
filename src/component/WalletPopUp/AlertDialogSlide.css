@@ -1,0 +1,74 @@
+.titleWallet{
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.alertWalletDiv{
+    margin-top: -2.5rem;
+}
+.walletIcon{
+    width: 40px;
+}
+.content{
+    font-family: Montserrat !important;
+    font-weight: bold;
+    color: #a2a2a2;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.walletDiv span{
+    font-family: Montserrat !important;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.walletDiv{
+    cursor: pointer;
+    border: none;  
+    text-align: center;  
+    padding-top: 1px;
+    background-color:#2A2E35;
+    color: #a2a2a2;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.closeBtn{
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+.walletDiv:hover{
+  background-color: #25282c;
+
+}
+.imgWallet{
+    width: 50px;
+    margin: 0 auto;
+}
+.dialogWallet{
+    background-color: #2A2E35;
+    color: white;
+}
+.dialogDiv{
+    border-radius: 20px;
+}
+.walletName{
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .walletName{
+        font-size: 0.6rem;
+    }
+    .content{
+        font-size: 0.8rem;
+    }
+    .imgWallet{
+        width: 45px;
+        margin: 0 auto;
+    }
+    .content{
+        margin-left: 1rem;
+    }
+  }
